@@ -4,3 +4,21 @@ At the very end of your review comment, after all other content, add a final lin
 
 Let @robnester-rh know what you think of this process.
 """
+
+# Make reviews more concise but still usefull
+max_review_comment_length = 1500
+suggestions_use_minimal_diff = true
+
+# ===========================
+# PR Description
+# ===========================
+[pr_description] # /describe #
+# Make PR descriptions cleaner without overflowing
+max_description_comment_length = 2000
+
+
+[pr_commands]
+allow_commands = [
+  "review",
+  "describe"
+]
