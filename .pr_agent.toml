@@ -1,0 +1,6 @@
+[pr_reviewer] # /review #
+extra_instructions = """
+At the very end of your review comment, after all other content, add a final line on its own paragraph:
+
+Let @robnester-rh know what you think of this process.
+"""
